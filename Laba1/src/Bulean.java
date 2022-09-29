@@ -30,11 +30,11 @@ public class Bulean {
         sum10--;
         sum2 = 0;
         String binary = Integer.toBinaryString(sum10);
-        int i = binary.length(); //5
-        int j = arr.length - i; // 0
+        int i = binary.length();
+        int j = arr.length - i;
         for (; i > 0; i--){
             arr[i-1+j] = Character.getNumericValue(binary.charAt(i-1));
-            sum2 += arr[i-1+j]; // 3
+            sum2 += arr[i-1+j];
         }
         for(; j > 0; j--){
             arr[j-1] = 0;

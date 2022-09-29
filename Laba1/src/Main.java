@@ -124,34 +124,15 @@ public class Main {
 
     public static void main(String[] args) throws Exception
     {
-        String data = readFileAsString("C:\\Users\\vladb\\Desktop\\SysProg\\Laba1\\test.txt"); //текст з файлу
+        String data = readFileAsString("C:\\Users\\vladb\\Desktop\\SysProg\\Sys_Prog\\Laba1\\test.txt"); //текст з файлу
         data = validText(data);
         ArrayList<String> words = wordsList(data); // масив окремих слів
         ArrayList<ArrayList<String>> pairs = createMaxPairs(words); // пари з найбільшою відстанню
         ArrayList<String> max_words = mergePairs(pairs); // множина слів максимальної відстані
-        //System.out.println(max_words);
         ArrayList<ArrayList<String>> subsets = AllSubsets(max_words); // список усіх підмножин
-        //subsets.stream().sorted();
         subsets.sort((ArrayList<String> a, ArrayList<String> b) -> b.size() - a.size());
         ArrayList<ArrayList<String>> answer = foo(subsets);
         System.out.print(answer);
     }
 }
 
-        /*for (int i = 0; i < pairs.size(); i++){
-            System.out.print("[ ");
-            for (String word : pairs.get(i)) {
-                System.out.print(word);
-                System.out.print(" ");
-            }
-            System.out.print("] ");
-        }*/
-
-                /*Bulean bull = new Bulean(6);
-        for (int i = 0; i < 60; i++){
-            System.out.println(bull.getSum10());
-            System.out.println(bull.getSum2());
-            System.out.println(bull.getArr());
-            bull.decr();
-        }*/
-//System.out.println("aboba");
