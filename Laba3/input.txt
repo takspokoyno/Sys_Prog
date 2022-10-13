@@ -1,0 +1,7 @@
+#created by tak_spokoyno
+def func()
+  for i in range(1, 8):
+    a = i
+    str = "Hello"
+    if (i % 2):
+      b = b + i

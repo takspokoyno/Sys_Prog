@@ -1,0 +1,81 @@
+#created by tak_spokoyno  -  COMMENT
+"\r"  -  ESCAPE CHAR
+"\n"  -  ESCAPE CHAR
+def  -  KEYWORD
+" "  -  SPACE
+func  -  IDENTIFIER
+(  -  BRACKET
+)  -  BRACKET
+"\r"  -  ESCAPE CHAR
+"\n"  -  ESCAPE CHAR
+" "  -  SPACE
+" "  -  SPACE
+for  -  KEYWORD
+" "  -  SPACE
+i  -  IDENTIFIER
+" "  -  SPACE
+in  -  KEYWORD
+" "  -  SPACE
+range  -  IDENTIFIER
+(  -  BRACKET
+1  -  NUM
+,  -  DELIM
+" "  -  SPACE
+8  -  NUM
+)  -  BRACKET
+:  -  DELIM
+"\r"  -  ESCAPE CHAR
+"\n"  -  ESCAPE CHAR
+" "  -  SPACE
+" "  -  SPACE
+" "  -  SPACE
+" "  -  SPACE
+a  -  IDENTIFIER
+" "  -  SPACE
+=  -  OPERATOR
+" "  -  SPACE
+i  -  IDENTIFIER
+"\r"  -  ESCAPE CHAR
+"\n"  -  ESCAPE CHAR
+" "  -  SPACE
+" "  -  SPACE
+" "  -  SPACE
+" "  -  SPACE
+str  -  IDENTIFIER
+" "  -  SPACE
+=  -  OPERATOR
+" "  -  SPACE
+Hello  -  CHAR/STRING CONST
+"\r"  -  ESCAPE CHAR
+"\n"  -  ESCAPE CHAR
+" "  -  SPACE
+" "  -  SPACE
+" "  -  SPACE
+" "  -  SPACE
+if  -  KEYWORD
+" "  -  SPACE
+(  -  BRACKET
+i  -  IDENTIFIER
+" "  -  SPACE
+%  -  OPERATOR
+" "  -  SPACE
+2  -  NUM
+)  -  BRACKET
+:  -  DELIM
+"\r"  -  ESCAPE CHAR
+"\n"  -  ESCAPE CHAR
+" "  -  SPACE
+" "  -  SPACE
+" "  -  SPACE
+" "  -  SPACE
+" "  -  SPACE
+" "  -  SPACE
+b  -  IDENTIFIER
+" "  -  SPACE
+=  -  OPERATOR
+" "  -  SPACE
+b  -  IDENTIFIER
+" "  -  SPACE
++  -  OPERATOR
+" "  -  SPACE
+i  -  IDENTIFIER
