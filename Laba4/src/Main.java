@@ -42,6 +42,7 @@ public class Main {
         String text = new String(Files.readAllBytes(Paths.get("input.txt")), StandardCharsets.UTF_8);
         regexDictionary.put("NUMBER", "\\d+(\\.\\d+)?");
         regexDictionary.put("IDENTIFIER", "[A-Za-z_][A-Za-z_0-9.]*");
+        regexDictionary.put("ERROR", "[А-Яа-я_][А-Яа-я_]*");
         regexDictionary.put("OPERATOR", "[+-/*//%=]");
         regexDictionary.put("STRING_CONSTANT", "(\".*\") | (\'.*\')");
         regexDictionary.put("BRACKET", "[/{/}/[/]/(/)]");
