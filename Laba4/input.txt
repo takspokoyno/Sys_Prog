@@ -1,0 +1,9 @@
+#hello my dear friend
+
+def aboba()
+	for i in range(0, 7):
+		a = i
+		str = "kchay"
+		if (i % 2):
+			b = b + i
+	return (str * b)
